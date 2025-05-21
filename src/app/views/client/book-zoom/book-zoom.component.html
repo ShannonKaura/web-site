@@ -1,0 +1,66 @@
+<html lang="en">
+
+<body>
+    <section>
+        <header class="main-header">
+            <nav>
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="/"><img src="../../../../assets/landing-pages/client/logo.svg" alt="youpro contact logo" /></a>
+                    </div>
+
+                    <div class="navbar-links">
+                        <a href="/#skillsets">Services</a>
+                        <a href="/#industries">Industries</a>
+                        <a target="_blank" href="https://youprocareers.co.uk/">Careers</a>
+                        <a href="blog">Blog</a>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="/#talentpool" class="hire-btn">Hire Talent</a> &nbsp;&nbsp;
+                    </div>
+
+                    <div class="mobile-menu">
+                        <mat-icon (click)="ShowMobileMenu()">menu</mat-icon>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section *ngIf="mobile_nav">
+        <header class="mobile-header">
+            <div class="navbar">
+                <div class="navbar-links">
+                    <div class="d-flex justify-content-end">
+                        <mat-icon (click)="Close()">close</mat-icon>
+                    </div>
+                    <a href="/" (click)="Close()">
+                        <div>Home</div>
+                    </a>
+                    <a href="/#skillsets" (click)="Close()">
+                        <div>Services</div>
+                    </a>
+                    <a href="/#industries" (click)="Close()">
+                        <div>Industries</div>
+                    </a>
+                    <a target="_blank" href="https://youprocareers.co.uk/" (click)="Close()">
+                        <div>Careers</div>
+                    </a>
+                    <a href="blog" (click)="Close()">
+                        <div>Blog</div>
+                    </a>
+                    <a href="/#talentpool" class="hire-btn" (click)="Close()">
+                        <div>Hire Talent</div>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <div class="calendly-holder">
+        <div class="calendly-inline-widget" data-auto-load="false"></div>
+    </div>
+</body>
+
+</html>

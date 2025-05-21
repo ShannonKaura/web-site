@@ -1,0 +1,268 @@
+<body>
+
+    <!-- ======= Header ======= -->
+    <section>
+        <header class="main-header">
+            <nav>
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="/"><img src="../../../../assets/landing-pages/client/logo.svg" alt="youpro contact logo" width="160px" height="80px" /></a>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="/book-meeting" class="client-btn">Book a Zoom Call</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Blog Section ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Blog</h2>
+
+                    <ol>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="blog/{{ blog.id }}">{{blog.title}}</a></li>
+                    </ol>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Blog Section -->
+
+        <div class="mat-spinner-holder" *ngIf="loading">
+            <mat-spinner [diameter]="30"></mat-spinner>
+        </div>
+
+        <!-- ======= Blog Single Section ======= -->
+        <section id="blog" class="blog" *ngIf="!loading">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+
+                    <!-- single blog -->
+                    <div class="col-lg-8 entries" *ngIf="show_single_blog">
+
+                        <article class="entry entry-single">
+
+                            <div class="entry-img">
+                                <img [src]="preview" alt="" class="img-fluid">
+                            </div>
+
+                            <h2 class="entry-title">
+                                <h1> {{blog.title}}</h1>
+                            </h2>
+
+                            <div class="row">
+                                <div class="col-md-12 d-flex">
+                                    <div class="author d-flex">
+                                        <div>
+                                            <mat-icon aria-hidden="false" aria-label="home">person</mat-icon>
+                                        </div>
+                                        <div>
+                                            {{blog.author.name}} &nbsp;&nbsp;&nbsp;
+                                        </div>
+                                    </div>
+                                    <div class="posted_date d-flex">
+                                        <div>
+                                            <mat-icon aria-hidden="false" aria-label="home">calendar_month</mat-icon>
+                                        </div>
+                                        <div>
+                                            {{posted_date * 1000 | date}} &nbsp;&nbsp;&nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><br />
+
+                            <div class="row">
+                                <div class="caption">
+                                    <p>{{blog.caption}}</p>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <quill-view [content]="content"></quill-view>
+                                </div>
+                            </div>
+
+                        </article>
+                        <!-- End blog entry -->
+
+                    </div>
+                    <!-- end single blog -->
+
+
+                    <!-- all blogs -->
+                    <div class="col-lg-8 entries" *ngIf="!show_single_blog">
+
+                        <!-- Start blog entry -->
+                        <article class="entry" *ngFor="let blog of ArrBlogData | searchFilter : searchText">
+                            <div class="entry-img">
+                                <img [src]="blog.photo.image" alt="" class="img-fluid" width="100%">
+                            </div>
+
+                            <h2 class="entry-title">
+                                <a href="blog-single.html">{{blog.title}}</a>
+                            </h2>
+
+                            <div class="row">
+                                <div class="col-md-12 d-flex">
+                                    <div class="author d-flex">
+                                        <div>
+                                            <mat-icon aria-hidden="false" aria-label="home">person</mat-icon>
+                                        </div>
+                                        <div>
+                                            {{blog.author.name}} &nbsp;&nbsp;&nbsp;
+                                        </div>
+                                    </div>
+                                    <div class="posted_date d-flex">
+                                        <div>
+                                            <mat-icon aria-hidden="false" aria-label="home">calendar_month</mat-icon>
+                                        </div>
+                                        <div>
+                                            {{blog.created_date * 1000 | date}} &nbsp;&nbsp;&nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><br />
+
+                            <div class="entry-content">
+
+                                <div class="caption">
+                                    <p>{{blog.caption}}</p>
+                                </div>
+
+                                <div class="read-more">
+                                    <a href="blog/{{ blog.id }}">Read More</a>
+                                </div>
+                            </div>
+
+                        </article>
+                        <!-- End blog entry -->
+
+                    </div>
+                    <!-- end all blogs -->
+                    <!-- End blog entries list -->
+
+                    <div class="col-lg-4">
+
+                        <div class="mat-spinner-holder" *ngIf="all_blogs_loading">
+                            <mat-spinner [diameter]="30"></mat-spinner>
+                        </div>
+
+                        <div class="sidebar" *ngIf="!all_blogs_loading">
+
+                            <h3 class="sidebar-title">Search</h3>
+                            <div class="sidebar-item search-form">
+                                <mat-form-field class="full-width body-text" appearance="outline">
+                                    <input matInput type="text" [(ngModel)]="searchText" (keyup)="keySearch($event)">
+                                </mat-form-field>
+                            </div>
+                            <!-- End sidebar search formn-->
+
+                            <h3 class="sidebar-title">Categories</h3>
+                            <div class="sidebar-item categories">
+                                <ul *ngFor="let category of blog_categories">
+                                    <li><a (click)="selectedCategory(category)">{{category.name}} <span *ngIf="category.counter > 0">({{category.counter}})</span> <span *ngIf="!category.counter">(0)</span></a></li>
+                                </ul>
+                            </div>
+                            <!-- End sidebar categories-->
+
+                            <h3 class="sidebar-title">Recent Posts</h3>
+                            <div class="sidebar-item recent-posts" *ngFor="let blog of recentBlogs">
+
+                                <div class="post-item clearfix">
+
+                                    <div *ngFor="let blog_image of blogImages">
+                                        <div class="entry-img" *ngIf="blog.photo_id == blog_image.id">
+                                            <img [src]="blog_image.image" alt="" class="img-fluid" width="100%">
+                                        </div>
+                                    </div>
+
+                                    <h4><a href="blog/{{ blog.id }}">{{blog.title}}</a></h4>
+                                    <time datetime="2020-01-01">{{blog.created_date * 1000 | date}}</time>
+                                </div>
+                            </div>
+                            <!-- End sidebar recent posts-->
+                            <!-- End sidebar tags-->
+
+                        </div>
+                        <!-- End sidebar -->
+
+                    </div>
+                    <!-- End blog sidebar -->
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Blog Single Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- Footer Starts Here -->
+    <footer>
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-md-4 footer-item">
+                    <h1>Quick Links</h1>
+
+                    <ul class="menu-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Book a Zoom Call</a></li>
+                        <li><a href="#gettind-started">Getting Started</a></li>
+                        <li><a href="#managed-outsourcing">Why SsaaS</a></li>
+                        <li><a href="#talentpool">Skillsets</a></li>
+                        <li><a href="#why-youpro">Why Youpro Contact?</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-item">
+                    <h1>Contact Us</h1>
+
+                    <ul class="menu-list">
+                        <li><img src="../../../../assets/landing-pages/client/phone.svg" alt="express cargo phonenumber" width="33px" height="33px" /> &nbsp; &nbsp; +263 784 644 277 <br /> <span class="add-ext">0203 924 3444</span> <br />
+
+                            <li><img src="../../../../assets/landing-pages/client/email.svg" alt="express cargo email" width="33px" height="33px" /> &nbsp; &nbsp;info@youprocontact.co.uk
+                            </li>
+                            <li><img src="../../../../assets/landing-pages/client/location.svg" alt="express cargo address" width="33px" height="33px" /> &nbsp; &nbsp; 71-75 Sheldon Street <br />
+                                <span class="add-ext">London UK</span> <br /><br /><br />
+                                <span class="add-ext"> Eastgate, 5th Floor</span> <br />
+                                <span class="add-ext">Harare Zimbabwe </span> <br />
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-item last-item">
+                    <h1>Follow Us</h1>
+
+                    <ul class="social-icons">
+                        <li>
+                            <a rel="nofollow" href="https://www.facebook.com/youprocontact" target="_blank"><img src="../../../../assets/landing-pages/client/facebook.svg" alt="facebook" width="33px" height="33px" /></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/youprocontact/" target="_blank"><img src="../../../../assets/landing-pages/client/instagram.svg" alt="instagram" width="33px" height="33px" /></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/company/youpro-contact/mycompany/" target="_blank"><img src="../../../../assets/landing-pages/client/linkedin.svg" alt="linkinin" width="33px" height="33px" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright &copy; 2021 All rights reserved | Designed & developed by YouPro Contact
+        </div>
+    </footer>
+    <!-- Footer Ends Here -->
+</body>

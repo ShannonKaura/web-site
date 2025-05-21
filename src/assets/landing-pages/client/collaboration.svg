@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="929.049" height="471.135" viewBox="0 0 929.049 471.135">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.11" stop-color="#333"/>
+      <stop offset="0.239" stop-color="#696969"/>
+      <stop offset="0.37" stop-color="#969696"/>
+      <stop offset="0.499" stop-color="#bcbcbc"/>
+      <stop offset="0.628" stop-color="#d9d9d9"/>
+      <stop offset="0.755" stop-color="#eee"/>
+      <stop offset="0.88" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_631" data-name="Group 631" transform="translate(-285.057 -3342.315)">
+    <g id="Group_134" data-name="Group 134" transform="translate(681.751 3342.315)">
+      <g id="Group_133" data-name="Group 133">
+        <g id="Group_132" data-name="Group 132">
+          <path id="Path_3171" data-name="Path 3171" d="M5303.583,245.083l.427.059a4.477,4.477,0,0,0,1.267-8.863l-.512-.071a4.477,4.477,0,0,0-1.182,8.875Zm-40.183-.669h.475a4.477,4.477,0,0,0,0-8.954h-.475a4.477,4.477,0,1,0,0,8.954Zm75.347,15.228.351.266a4.476,4.476,0,1,0,5.468-7.088l-.4-.31a4.477,4.477,0,1,0-5.415,7.132ZM5222.59,244.414h.475a4.477,4.477,0,0,0,0-8.954h-.475a4.477,4.477,0,0,0,0,8.954Zm139.848,45.6a4.476,4.476,0,1,0,8.235-3.51l-.2-.463a4.477,4.477,0,1,0-8.212,3.568Zm5.947,37.719v.475a4.477,4.477,0,0,0,8.954,0v-.475a4.477,4.477,0,0,0-8.954,0ZM4991.151,437.011a6.218,6.218,0,1,0-6.218-6.219A6.225,6.225,0,0,0,4991.151,437.011Zm-61.812-2.488h44.809a17.458,17.458,0,0,0,13.272,13.272v94.543a83.181,83.181,0,0,0,57.4,78.991l.043.012a82.722,82.722,0,0,0,25.6,4.038h223.093a82.755,82.755,0,0,0,25.335-3.952h0a83.932,83.932,0,0,0,41.388-29.7,82.3,82.3,0,0,0,16.315-49.383v-173.5a3.73,3.73,0,1,0-7.461,0v173.5a75.389,75.389,0,0,1-52.523,71.984h0a75.283,75.283,0,0,1-23.055,3.6H5070.459a75.289,75.289,0,0,1-23.331-3.684l-.02-.006a75.436,75.436,0,0,1-52.226-71.89V447.795a17.406,17.406,0,0,0,0-34V319.246a75.663,75.663,0,0,1,75.577-75.578h111.546a3.731,3.731,0,0,0,0-7.461H5070.459a83.133,83.133,0,0,0-83.039,83.04v94.543a17.458,17.458,0,0,0-13.272,13.273h-44.809a3.731,3.731,0,0,0,0,7.461Zm61.813-13.679a9.949,9.949,0,1,1-9.949,9.948A9.96,9.96,0,0,1,4991.151,420.844Z" transform="translate(-4925.608 -235.46)" fill="#2d4f76"/>
+        </g>
+      </g>
+      <rect id="Rectangle_294" data-name="Rectangle 294" width="378.275" height="378.275" rx="41.236" transform="translate(154.079 92.86)" opacity="0.9" fill="url(#radial-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <rect id="Rectangle_295" data-name="Rectangle 295" width="331.969" height="331.969" rx="36.188" transform="translate(89.856 28.975)" fill="#f7f6f6"/>
+    </g>
+    <g id="Group_137" data-name="Group 137" transform="translate(285.057 3342.688)">
+      <g id="Group_136" data-name="Group 136" transform="translate(0 0)">
+        <g id="Group_135" data-name="Group 135">
+          <path id="Path_3172" data-name="Path 3172" d="M4712.79,488.547l-.428-.059a4.477,4.477,0,0,0-1.267,8.863l.513.071a4.69,4.69,0,0,0,.6.039,4.477,4.477,0,0,0,.586-8.915Z" transform="translate(-4639.034 -108.252)" fill="#2193d1"/>
+          <path id="Path_3173" data-name="Path 3173" d="M4739.3,488.957h-.473a4.477,4.477,0,1,0,0,8.954h.473a4.477,4.477,0,1,0,0-8.954Z" transform="translate(-4625.366 -107.992)" fill="#2193d1"/>
+          <path id="Path_3174" data-name="Path 3174" d="M4690.091,479.236l-.35-.268a4.477,4.477,0,0,0-5.468,7.09l.405.308a4.476,4.476,0,1,0,5.413-7.13Z" transform="translate(-4651.501 -113.499)" fill="#2193d1"/>
+          <path id="Path_3175" data-name="Path 3175" d="M4766.434,488.957h-.475a4.477,4.477,0,1,0,0,8.954h.475a4.477,4.477,0,0,0,0-8.954Z" transform="translate(-4611.685 -107.992)" fill="#2193d1"/>
+          <path id="Path_3176" data-name="Path 3176" d="M4674.69,459.56a4.476,4.476,0,1,0-8.236,3.51l.2.462a4.477,4.477,0,1,0,8.212-3.567Z" transform="translate(-4659.79 -124.19)" fill="#2193d1"/>
+          <path id="Path_3177" data-name="Path 3177" d="M4670.857,435.232v-.474a4.477,4.477,0,1,0-8.954,0v.474a4.477,4.477,0,1,0,8.954,0Z" transform="translate(-4661.903 -137.583)" fill="#2193d1"/>
+          <circle id="Ellipse_44" data-name="Ellipse 44" cx="6.218" cy="6.218" r="6.218" transform="translate(379.97 188.368)" fill="#2193d1"/>
+          <path id="Path_3178" data-name="Path 3178" d="M5109.653,426.563h-44.811a17.46,17.46,0,0,0-13.272-13.273V318.747a83.182,83.182,0,0,0-57.4-78.991l-.044-.011a82.731,82.731,0,0,0-25.6-4.038H4745.439a82.769,82.769,0,0,0-25.336,3.952h0a83.941,83.941,0,0,0-41.386,29.706,82.289,82.289,0,0,0-16.315,49.382v173.5a3.73,3.73,0,1,0,7.461,0v-173.5a75.388,75.388,0,0,1,52.523-71.983h0a75.329,75.329,0,0,1,23.054-3.594H4968.53a75.29,75.29,0,0,1,23.333,3.684l.021,0a75.437,75.437,0,0,1,52.226,71.89v94.544a17.406,17.406,0,0,0,0,34.005v44.95l0,.02V541.84a75.667,75.667,0,0,1-75.581,75.58H4856.984a3.731,3.731,0,1,0,0,7.461H4968.53a83.137,83.137,0,0,0,83.042-83.041V492.249l0-.02V447.3a17.458,17.458,0,0,0,13.272-13.273h44.811a3.731,3.731,0,1,0,0-7.461Zm-61.812,13.68a9.949,9.949,0,1,1,9.948-9.949A9.961,9.961,0,0,1,5047.841,440.243Z" transform="translate(-4661.653 -235.708)" fill="#2193d1"/>
+        </g>
+      </g>
+      <rect id="Rectangle_296" data-name="Rectangle 296" width="378.275" height="378.275" rx="41.236" transform="translate(93.571 92.487)" opacity="0.9" fill="url(#radial-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <rect id="Rectangle_297" data-name="Rectangle 297" width="331.969" height="331.969" rx="36.188" transform="translate(29.348 28.602)" fill="#f7f6f6"/>
+    </g>
+    <g id="icons" transform="translate(426.673 3395.062)">
+      <g id="Group_138" data-name="Group 138" transform="translate(478.75 12.707)">
+        <path id="Path_3179" data-name="Path 3179" d="M5095.4,296.534a1.867,1.867,0,0,0,1.237-1.741v-.084a1.889,1.889,0,0,0-2.523-1.786,11.278,11.278,0,1,0,14.457,14.5,1.888,1.888,0,0,0-1.783-2.527h-.082a1.873,1.873,0,0,0-1.743,1.234,7.447,7.447,0,1,1-9.563-9.6Z" transform="translate(-5068.032 -271.992)" fill="#676767"/>
+        <path id="Path_3180" data-name="Path 3180" d="M5103.585,290.23a1.92,1.92,0,0,0,1.958-.949h0a1.916,1.916,0,0,0-1.384-2.839,20.619,20.619,0,1,0,17.579,20.034,20.852,20.852,0,0,0-.216-2.651,1.916,1.916,0,1,0-3.789.576,16.769,16.769,0,1,1-14.148-14.172Z" transform="translate(-5071.163 -275.315)" fill="#676767"/>
+        <path id="Path_3181" data-name="Path 3181" d="M5130.328,300.77h0a1.921,1.921,0,0,0-.9,2.193,26.12,26.12,0,1,1-18.143-18.162,1.921,1.921,0,0,0,2.194-.9h0a1.914,1.914,0,0,0-1.138-2.783,29.951,29.951,0,1,0,20.771,20.79A1.913,1.913,0,0,0,5130.328,300.77Z" transform="translate(-5074.295 -278.447)" fill="#676767"/>
+        <path id="Path_3182" data-name="Path 3182" d="M5103.873,298.191,5093.5,308.565a1.917,1.917,0,0,0,2.71,2.711l10.374-10.375,2.245-2.246a3.258,3.258,0,0,0,.573.051h7.375a3.3,3.3,0,0,0,2.354-.978l4.561-4.563a3.328,3.328,0,0,0-2.849-5.646l-1.033.155-3.19.483.482-3.191.155-1.034a3.33,3.33,0,0,0-5.646-2.852l-4.563,4.566a3.3,3.3,0,0,0-.978,2.353v7.374a3.3,3.3,0,0,0,.051.573Zm6.026-9.984,3.34-3.338-.51,3.388a3.329,3.329,0,0,0,3.787,3.788l3.388-.51-3.337,3.34H5109.9v-6.667Z" transform="translate(-5064.893 -278.398)" fill="#676767"/>
+        <path id="Path_3183" data-name="Path 3183" d="M5116.738,279.532a1.912,1.912,0,0,0-2.708,0l-3.1,3.094a6.2,6.2,0,0,1,.085,2.308l-.055.372.373-.054a6.26,6.26,0,0,1,2.306.084l3.095-3.1A1.911,1.911,0,0,0,5116.738,279.532Z" transform="translate(-5055.817 -278.971)" fill="#676767"/>
+      </g>
+      <g id="Group_139" data-name="Group 139" transform="translate(0 0)">
+        <path id="Path_3184" data-name="Path 3184" d="M4838.362,309.486l3.743-3.835-18.363-34.36-4.441,2.052-7.28-2.428a7.784,7.784,0,0,0-7.98,1.933l-4.366,4.465,0-.011h-14.659a3.628,3.628,0,0,0-2.175.733l-9.352,7.112-2.271,1.727h-2.984a3.6,3.6,0,0,0-3.6,3.612l-8.589,5.181,26.565,49.044,27.169-15.455a18.066,18.066,0,0,0,28.584-19.768Zm-70.134-19.042h2.984a3.7,3.7,0,0,0,.449-.029l2.7-1.447,2.866-2.18,7.778-5.916h12.564l1.313,2.353,10.383,18.578c-.18.158-.356.32-.532.489a17.994,17.994,0,0,0-1.858,2.086,17.683,17.683,0,0,0-2.122,3.589,17.92,17.92,0,0,0-1.324,4.471c-.031.19-.057.378-.079.569a18.04,18.04,0,0,0,1.176,9.11h0l-7.584-1.393a3.614,3.614,0,0,0-3.345,1.157l-5.8,6.574L4769,292.021l-.8-1.551A.041.041,0,0,1,4768.229,290.444Zm15.782,49.362-23.205-42.841,5.135-3.1,21.081,40.865,9.255-10.49a.02.02,0,0,1,.021-.008l10.528,1.932c.116.153.231.31.353.459Zm50.961-19.8a14.218,14.218,0,0,1-1.794,3.558,14.483,14.483,0,0,1-20.017,3.765l0,0a14.615,14.615,0,0,1-4.4-4.675l0,0a14.523,14.523,0,0,1,1.658-16.969c.2-.23.421-.454.644-.675l0,.006a14.387,14.387,0,0,1,2.858-2.2l0,0a14.56,14.56,0,0,1,13.625-.56,1.8,1.8,0,0,0,2.059-.335,1.765,1.765,0,0,0,.522-1.258,1.789,1.789,0,0,0-1.02-1.62,18.149,18.149,0,0,0-16.93.656l-10.689-19.132,5.1-5.22a4.189,4.189,0,0,1,4.3-1.041l8.623,2.875,2.667-1.232,15.545,29.083-.974,1-.443.456a1.8,1.8,0,0,0-2.177,1.751,1.666,1.666,0,0,0,.054.421l-.035.033c.074.141.146.284.214.429.041.083.079.167.116.248.058.125.112.251.164.381s.1.251.152.378c.018.051.037.1.057.152A14.568,14.568,0,0,1,4834.972,320.008Z" transform="translate(-4756.043 -270.524)" fill="#676767"/>
+        <path id="Path_3185" data-name="Path 3185" d="M4815.23,291.467a1.788,1.788,0,0,0-2.526,0l-10.843,11.022-4.3-4.3a1.785,1.785,0,0,0-2.524,2.524l6.822,6.822,13.369-13.548A1.785,1.785,0,0,0,4815.23,291.467Z" transform="translate(-4736.642 -260.225)" fill="#676767"/>
+        <path id="Path_3186" data-name="Path 3186" d="M4770.224,290.874a1.773,1.773,0,0,0,1.062-.352l9.845-7.3a1.785,1.785,0,1,0-2.127-2.867l-9.844,7.3a1.785,1.785,0,0,0,1.064,3.219Z" transform="translate(-4749.793 -265.744)" fill="#676767"/>
+        <path id="Path_3187" data-name="Path 3187" d="M4770.87,293.777a1.787,1.787,0,0,0,2.5.372l9.844-7.3a1.786,1.786,0,0,0-2.127-2.869l-9.844,7.3A1.785,1.785,0,0,0,4770.87,293.777Z" transform="translate(-4748.744 -263.916)" fill="#676767"/>
+        <path id="Path_3188" data-name="Path 3188" d="M4772.834,297.284a1.783,1.783,0,0,0,2.5.37l9.844-7.3a1.785,1.785,0,1,0-2.126-2.867l-9.845,7.3A1.784,1.784,0,0,0,4772.834,297.284Z" transform="translate(-4747.754 -262.147)" fill="#676767"/>
+        <path id="Path_3189" data-name="Path 3189" d="M4774.913,301.028a1.785,1.785,0,0,0,2.5.37l9.844-7.3a1.785,1.785,0,1,0-2.125-2.867l-9.846,7.3A1.787,1.787,0,0,0,4774.913,301.028Z" transform="translate(-4746.703 -260.259)" fill="#676767"/>
+        <path id="Path_3190" data-name="Path 3190" d="M4777,304.653a1.788,1.788,0,0,0,2.5.372l9.844-7.3a1.785,1.785,0,1,0-2.127-2.867l-9.844,7.3A1.785,1.785,0,0,0,4777,304.653Z" transform="translate(-4745.654 -258.431)" fill="#676767"/>
+      </g>
+    </g>
+    <text id="Our_Remote_Manager_tools_give_you_even_more_visibility_into_your_remote_developer_s_work_with_automatic_time_tracking_and_virtual_daily_stand-ups." data-name="Our Remote Manager tools
+give you even more visibility 
+into your remote developer’s
+work with automatic time 
+tracking and virtual daily 
+stand-ups." transform="translate(476.958 3557.041)" fill="#616160" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="-108.888" y="0">Our Remote Manager tools</tspan><tspan x="-114.392" y="22">give you even more visibility </tspan><tspan x="-114.768" y="44">into your remote developer’s</tspan><tspan x="-106.176" y="66">work with automatic time </tspan><tspan x="-101.44" y="88">tracking and virtual daily </tspan><tspan x="-42.208" y="110">stand-ups.</tspan></text>
+    <text id="DAILY_UPDATES" data-name="DAILY UPDATES" transform="translate(408.78 3507.689)" fill="#2193d1" font-size="17" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">DAILY UPDATES</tspan></text>
+    <text id="High_visibility_makes_developers_easy_to_manage_and_ensures_that_they_constantly_work_on_what_s_most_valuable_to_you." data-name="High visibility makes 
+developers easy to manage 
+and ensures that they constantly 
+work on what’s most valuable 
+to you." transform="translate(933.194 3560.524)" fill="#616160" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="-84.376" y="0">High visibility makes </tspan><tspan x="-111.512" y="22">developers easy to manage </tspan><tspan x="-133.744" y="44">and ensures that they constantly </tspan><tspan x="-120.96" y="66">work on what’s most valuable </tspan><tspan x="-26.52" y="88">to you.</tspan></text>
+    <text id="EASY_TO_MANAGE" data-name="EASY TO MANAGE" transform="translate(850.697 3511.172)" fill="#2193d1" font-size="17" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">EASY TO MANAGE</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,740 @@
+<html lang="en">
+<section>
+    <header class="main-header">
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="/"><img src="../../../../assets/landing-pages/client/logo.svg" alt="youpro contact logo" width="160px" height="80px" /></a>
+                </div>
+
+                <div class="navbar-links">
+                    <a href="#skillsets">Services</a>
+                    <a href="#industries">Industries</a>
+                    <a target="_blank" href="https://youprocareers.co.uk/">Careers</a>
+                    <a href="blog">Blog</a>
+                </div>
+
+                <div class="buttons">
+                    <a href="#talentpool" class="hire-btn">Hire Talent</a> &nbsp;&nbsp;
+                    <a href="/book-meeting" class="client-btn">Book a Zoom Call</a>
+                </div>
+
+                <div class="mobile-menu">
+                    <mat-icon (click)="ShowMobileMenu()">menu</mat-icon>
+                </div>
+            </div>
+        </nav>
+    </header>
+</section>
+
+<section *ngIf="mobile_nav">
+    <header class="mobile-header">
+        <div class="navbar">
+            <div class="navbar-links">
+                <div class="d-flex justify-content-end">
+                    <mat-icon (click)="Close()">close</mat-icon>
+                </div>
+                <a href="/" (click)="Close()">
+                    <div>Home </div>
+                </a>
+                <a href="#skillsets" (click)="Close()">
+                    <div> Services</div>
+                </a>
+                <a href="#industries" (click)="Close()">
+                    <div>Industries</div>
+                </a>
+                <a target="_blank" href="https://youprocareers.co.uk/" (click)="Close()">
+                    <div> Careers</div>
+                </a>
+
+                <a href="blog" (click)="Close()">
+                    <div>Blog </div>
+                </a>
+                <a href="#talentpool" class="hire-btn" (click)="Close()">
+                    <div>Hire Talent</div>
+                </a>
+
+                <a href="/book-meeting" class="client-btn" (click)="Close()">
+                    <div>Book a Zoom Call </div>
+                </a>
+
+            </div>
+        </div>
+    </header>
+</section>
+
+<div class="container-fluid">
+    <ngb-carousel>
+        <ng-template ngbSlide>
+            <div class="content-holder">
+                <div class="left">
+                    <div class="content">
+                        <div class="text-holder">
+                            <div class="text-header">
+                                <h1>Are you struggling to find the right skillset at the right price?</h1>
+                            </div>
+
+                            <div class="text-header">
+                                <h1>Try SsaaS</h1>
+                            </div>
+
+                            <div class="text-text">
+                                <p>Skillset as a service (SsaaS) is a staffing model by YouPro Contact where talent is deployed to businesses on a subscription basis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="wrapper">
+                        <img src="../../../../assets/landing-pages/client/header_hero.svg" alt="Random first slide">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="content-holder">
+                <div class="left">
+                    <div class="content">
+                        <div class="text-holder">
+                            <div class="text-header">
+                                <h1>SKILLSET AS A SERVICE (SsaaS)</h1>
+                            </div>
+
+                            <div class="text-header">
+                                <h3>- for Dentists</h3>
+                            </div>
+
+                            <div class="text-text">
+                                <p>With the right team, you can help eliminate stress and improve your patient retention.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="wrapper">
+                        <img src="./../../assets/img/home-carousel/dentists.png" alt="Random first slide">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="content-holder">
+                <div class="left">
+                    <div class="content">
+                        <div class="text-holder">
+                            <div class="text-header">
+                                <h1>SKILLSET AS A SERVICE (SsaaS)</h1>
+                            </div>
+
+                            <div class="text-header">
+                                <h3>- for Veterinarians</h3>
+                            </div>
+
+                            <div class="text-text">
+                                <p>With the right team, you can manage your administrative tasks improving your overall career livelihood</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="wrapper">
+                        <img src="./../../assets/img/home-carousel/vets.png" alt="Random first slide">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="content-holder">
+                <div class="left">
+                    <div class="content">
+                        <div class="text-holder">
+                            <div class="text-header">
+                                <h1>SKILLSET AS A SERVICE (SsaaS)</h1>
+                            </div>
+
+                            <div class="text-header">
+                                <h3>- for Optometrists</h3>
+                            </div>
+
+                            <div class="text-text">
+                                <p>Manage your adminstrative tasks from just a click of a button, register with us.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="wrapper">
+                        <img src="./../../assets/img/home-carousel/optometrists.png" alt="Random first slide">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<body>
+
+    <!-- Banner Ends Here -->
+
+    <section id="managed-outsourcing">
+        <div class="left-section-header">
+            <div class="header-holder">
+                <div class="left-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-left.svg" alt="youpro contact" width="350px" height="30px">
+                </div>
+                <div class="title-header">
+                    WHY SSAAS
+                </div>
+            </div>
+        </div>
+
+        <div class="outsourcing-text-holder">
+            <div class="outsourcing-text">
+                <p>YouPro Contact's SsaaS is a great staffing solution for your business because it is flexible, scalable, and available anywhere at any time. With this model you can: </p>
+
+                <div class="outsourcing-points">
+                    <div class="point">
+                        <span><img src="./../../../../assets/landing-pages/client/check-circle.svg"
+                                alt="ssaas skillset as a service" width="20px" height="20px"></span> &nbsp; &nbsp;
+                        <p>Say goodbye to expensive recruitment fees.</p>
+                    </div>
+
+                    <div class="point">
+                        <span><img src="./../../../../assets/landing-pages/client/check-circle.svg"
+                                alt="ssaas problem solving" width="20px" height="20px"></span> &nbsp; &nbsp;
+                        <p>Use one provider for every essential skillset you need.</p>
+                    </div>
+
+                    <div class="point">
+                        <span><img src="./../../../../assets/landing-pages/client/check-circle.svg"
+                                alt="ssaas hard working" width="20px" height="20px"></span> &nbsp; &nbsp;
+                        <p>Get access to people who can do great work, adapt seamlessly to your company culture, and produce business results.</p>
+                    </div>
+
+                    <div class="point">
+                        <span><img src="./../../../../assets/landing-pages/client/check-circle.svg" alt="ssaas"
+                                width="20px" height="20px"></span> &nbsp; &nbsp;
+                        <p>Do away with the burden of human resources processes and issues.</p>
+                    </div>
+
+                    <div class="point">
+                        <span><img src="./../../../../assets/landing-pages/client/check-circle.svg"
+                                alt="ssaas responsibility and accountability" width="20px" height="20px"></span> &nbsp; &nbsp;
+                        <p>Discard the burden of rentals, space, equipment, employers N.I. and payroll.</p>
+                    </div>
+
+                    <div class="point">
+                        <span><img src="./../../../../assets/landing-pages/client/check-circle.svg" alt="ssaas"
+                                width="20px" height="20px"></span> &nbsp; &nbsp;
+                        <p>Get short-term contracts, which make it easy to get the service only when you need it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="why-youpro">
+        <div class="right-section-header">
+            <div class="header-holder">
+                <div class="title-header">
+                    WHY YOUPRO CONTACT?
+                </div>
+                <div class="right-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-right.svg" alt="ssaas" width="350px" height="30px">
+                </div>
+            </div>
+        </div>
+
+        <div class="why-youpro-contact-holder">
+            <img src="./../../../../assets/landing-pages/client/why-youpro-contact.svg" alt="ssaas" width="80%" height="100%">
+        </div>
+    </section>
+
+
+    <section id="gettind-started">
+        <div class="left-section-header">
+            <div class="header-holder">
+                <div class="left-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-left.svg" alt="ssaas" width="350px" height="30px">
+                </div>
+                <div class="title-header">
+                    GETTING STARTED
+                </div>
+            </div>
+        </div>
+
+        <div class="getting-started-steps-holder">
+            <div class="topic">
+                <p>So, how do you kick start the whole skillset as a service process to get more skillsets and increase your team's efficiency?</p>
+            </div>
+
+            <div class="steps-holder">
+                <div class="steps">
+                    <div class="step-holder">
+                        <div class="step-img">
+                            <img src="./../../../../assets/landing-pages/client/step1.svg" alt="ssaas step 1">
+                        </div>
+                        <div class="title">
+                            IDENTIFICATION
+                        </div>
+                        <div class="text">
+                            <p> You tell us the skills you need. </p>
+                        </div>
+                    </div>
+
+                    <div class="step-holder middle-step">
+                        <div class="step-img space">
+                            <img src="./../../../../assets/landing-pages/client/step2.svg" alt="ssaas step 2">
+                        </div>
+                        <div class="title">
+                            RECRUITMENT
+                        </div>
+                        <div class="text">
+                            <p> We give you a list of prescreened candidates who meet your requirements. </p>
+                        </div>
+                    </div>
+
+                    <div class="step-holder">
+                        <div class="step-img">
+                            <img src="./../../../../assets/landing-pages/client/step3.svg" alt="ssaas step 3">
+                        </div>
+                        <div class="title">
+                            INTERVIEWS
+                        </div>
+                        <div class="text">
+                            <p> You conduct video interviews with the vetted candidates. </p>
+                        </div>
+                    </div>
+
+                    <div class="step-holder middle-step">
+                        <div class="step-img space">
+                            <img src="./../../../../assets/landing-pages/client/step4.svg" alt="ssaas step 4">
+                        </div>
+                        <div class="title">
+                            SELECTION
+                        </div>
+                        <div class="text">
+                            <p> You select your managed remote team member. </p>
+                        </div>
+                    </div>
+
+                    <div class="step-holder">
+                        <div class="step-img">
+                            <img src="./../../../../assets/landing-pages/client/step5.svg" alt="ssaas step 5">
+                        </div>
+                        <div class="title">
+                            PAYMENT
+                        </div>
+                        <div class="text">
+                            <p> Only now that you have selected your managed remote expert, is your monthly subscription payable. </p>
+                        </div>
+                    </div>
+
+                    <div class="step-holder middle-step">
+                        <div class="step-img space">
+                            <img src="./../../../../assets/landing-pages/client/step6.svg" alt="ssaas step 6">
+                        </div>
+                        <div class="title">
+                            GET STARTED!
+                        </div>
+                        <div class="text">
+                            <p> Let the collaboration begin! Your selected remote team member starts working. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="steps-combined-holder">
+            <div class="steps-combined">
+                <img src="./../../../../assets/landing-pages/client/steps-combined.svg" alt="ssaas steps" width="100%" height="180px">
+
+                <div class="titles-holder">
+                    <div class="titles">
+                        <div class="title">
+                            IDENTIFICATION
+                        </div>
+                        <div class="text">
+                            <p> You tell us the skills you need. </p>
+                        </div>
+                    </div>
+
+                    <div class="titles">
+                        <div class="title">
+                            RECRUITMENT
+                        </div>
+                        <div class="text">
+                            <p> We give you a list of prescreened candidates who meet your requirements. </p>
+                        </div>
+                    </div>
+
+                    <div class="titles">
+                        <div class="title">
+                            INTERVIEWS
+                        </div>
+                        <div class="text">
+                            <p> You conduct video interviews with the vetted candidates. </p>
+                        </div>
+                    </div>
+
+                    <div class="titles">
+                        <div class="title">
+                            SELECTION
+                        </div>
+                        <div class="text">
+                            <p> You select your managed remote team member. </p>
+                        </div>
+                    </div>
+
+                    <div class="titles">
+                        <div class="title">
+                            PAYMENT
+                        </div>
+                        <div class="text">
+                            <p> Only now that you have selected your managed remote expert, is your monthly subscription payable. </p>
+                        </div>
+                    </div>
+
+                    <div class="titles">
+                        <div class="title">
+                            GET STARTED!
+                        </div>
+                        <div class="text">
+                            <p> Let the collaboration begin! Your selected remote team member starts working. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="collaboration">
+        <div class="right-section-header">
+            <div class="header-holder">
+                <div class="title-header">
+                    COLLABORATION
+                </div>
+                <div class="right-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-right.svg" alt="ssaas" width="350px" height="30px">
+                </div>
+            </div>
+        </div>
+
+        <div class="collaboration-holder">
+            <div class="text-holder">
+                <div class="topic">
+                    <p>
+                        Effective collaboration is an important factor when working with virtual teams. It ensures effective communication and promotes healthy working relationship.
+                    </p>
+                </div>
+            </div>
+
+            <div class="collaboration-img-holder">
+                <div class="collaboration-img">
+                    <img src="./../../../../assets/landing-pages/client/collaboration.svg" alt="ssaas collaboration" width="100%" height="100%">
+                </div>
+
+                <div class="collaboration-img-mobile">
+                    <img src="./../../../../assets/landing-pages/client/collaboration-mobile.svg" alt="ssaas collaboration" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skillsets">
+        <div class="left-section-header">
+            <div class="header-holder">
+                <div class="left-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-left.svg" alt="ssaas collaboration" width="350px" height="30px">
+                </div>
+
+                <div class="title-header">
+                    SKILLSETS
+                </div>
+            </div>
+        </div>
+
+        <div class="skillset-holder">
+            <div class="text-holder">
+                <div class="topic">
+                    <p> In our talent pool we have the following skillsets: </p>
+                </div>
+            </div>
+
+            <div class="skillset-img-holder">
+                <div class="skillsets">
+                    <div class="skillset-img">
+                        <img src="./../../../../assets/landing-pages/client/combined-skillsets.svg" alt="ssaas collaboration combined-skillsets" width="100%" height="100%">
+                    </div>
+
+                    <div class="titles-holder">
+                        <div class="title">
+                            Digital Dynamites & Marketing Mavens
+                        </div>
+
+                        <div class="title">
+                            Sales Virtuosos & Bookkeeping Boffins
+                        </div>
+
+                        <div class="title">
+                            Support Samurais & Contact Centre Crackerjacks
+                        </div>
+
+                        <div class="title">
+                            Design Dab Hands & Coding Connoisseurs
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- for mobile -->
+            <div class="skill-holder">
+                <div class="skills">
+                    <div class="skill-pack">
+                        <div class="skill-img">
+                            <img src="./../../../../assets/landing-pages/client/digital-dynamites.svg" alt="ssaas collaboration">
+                        </div>
+                        <div class="skill-title">
+                            Digital Dynamites & Marketing Mavens
+                        </div>
+                    </div>
+
+                    <div class="skill-pack">
+                        <div class="skill-img">
+                            <img src="./../../../../assets/landing-pages/client/sales.svg" alt="ssaas collaboration">
+                        </div>
+                        <div class="skill-title">
+                            Sales Virtuosos & Bookkeeping Boffins
+                        </div>
+                    </div>
+
+                    <div class="skill-pack">
+                        <div class="skill-img">
+                            <img src="./../../../../assets/landing-pages/client/support.svg" alt="ssaas collaboration">
+                        </div>
+                        <div class="skill-title">
+                            Support Samurais & Contact Centre Crackerjacks
+                        </div>
+                    </div>
+
+                    <div class="skill-pack">
+                        <div class="skill-img">
+                            <img src="./../../../../assets/landing-pages/client/design.svg" alt="ssaas collaboration">
+                        </div>
+                        <div class="skill-title">
+                            Design Dab Hands & Coding Connoisseurs
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="industries">
+        <div class="right-section-header">
+            <div class="header-holder">
+                <div class="title-header">
+                    INDUSTRIES
+                </div>
+                <div class="right-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-right.svg" alt="ssaas industries" width="350px" height="30px">
+                </div>
+            </div>
+        </div>
+
+        <div class="industries-holder">
+            <div class="text-holder">
+                <div class="topic">
+                    <p>
+                        Our managed remote experts have extensive experience working in these sectors:
+                    </p>
+                </div>
+            </div>
+
+            <div class="industries-img-holder">
+                <div class="industries-img">
+                    <img src="./../../../../assets/landing-pages/client/industries.svg" alt="youprocontact ssaas industries" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="talentpool">
+        <div class="left-section-header">
+            <div class="header-holder">
+                <div class="left-img-bar">
+                    <img src="./../../../../assets/landing-pages/client/img-bar-left.svg" alt="ssaas collaboration" width="350px" height="30px">
+                </div>
+
+                <div class="title-header">
+                    TALENT POOL
+                </div>
+            </div>
+        </div>
+
+
+        <div class="talentpool-holder">
+            <div class="text-holder">
+                <div class="topic">
+                    <p>
+                        Our managed remote experts have extensive experience working in these sectors: <br />
+                        <span class="select-msg">Tap the buttons below to select the talent(s) you need and fill in your contact details to proceed </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="talents-holder">
+                <div class="talents">
+                    <div class="talent-row">
+                        <button class="talent-btn" [ngClass]="{'talent-selected': software_engineering_color}" (click)="RevertSoftwareEngineering()">Software Engineering</button>
+                        <button class="talent-btn" [ngClass]="{'talent-selected': cyber_security_color}" (click)="RevertCyberSecurity()">Cyber Security</button>
+                    </div>
+
+
+                    <div class="talent-row">
+                        <button class="talent-btn" [ngClass]="{'talent-selected': digital_marketing_color}" (click)="RevertDigitalMarketing()">Digital Marketing</button>
+                        <button class="talent-btn" [ngClass]="{'talent-selected': social_media_color}" (click)="RevertSocialMediaManagement()">Social Media Management</button>
+                    </div>
+
+
+                    <div class="talent-row">
+                        <button class="talent-btn" [ngClass]="{'talent-selected': graphic_design_color}" (click)="RevertGraphicDesign()">Graphic Design/Illustration</button>
+                        <button class="talent-btn" [ngClass]="{'talent-selected': it_support_color}" (click)="RevertITSupport()">IT Support/Helpdesk</button>
+                    </div>
+
+
+                    <div class="talent-row">
+                        <button class="talent-btn" [ngClass]="{'talent-selected': uiux_design_color}" (click)="RevertUIUXDesign()">UI/UX Design</button>
+                        <button class="talent-btn" [ngClass]="{'talent-selected': admin_color}" (click)="RevertAdmin()">Admin</button>
+                    </div>
+
+
+                    <div class="talent-row">
+                        <button class="talent-btn" [ngClass]="{'talent-selected': accounting_color}" (click)="RevertAccounting()">Accounting/Bookkeeping</button>
+                        <button class="talent-btn" [ngClass]="{'talent-selected': sales_color}" (click)="RevertSales()">Sales/Marketing</button>
+                    </div>
+
+
+                    <div class="talent-row">
+                        <button class="talent-btn" [ngClass]="{'talent-selected': inbound_outbound_color}" (click)="RevertInboundOutboundCalls()">Inbound/Outbound Calls</button>
+                        <button class="talent-btn" [ngClass]="{'talent-selected': lead_generation_color}" (click)="RevertLeadGeneration()">Lead Generation</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <form class="" #f="ngForm">
+                <div class="inputs-holder">
+                    <div class="inputs">
+                        <div class="inputs-row">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <mat-label>Your full name</mat-label>
+                                    <mat-form-field class="full-width body-text" appearance="outline">
+                                        <input matInput placeholder="Enter name" [(ngModel)]="client.name" name="name" #name="ngModel" required>
+                                        <mat-error *ngIf="!name.valid || (!name.pristine)">{{getNamelMessage()}}
+                                        </mat-error>
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <mat-label>Your work email</mat-label>
+                                    <mat-form-field class="full-width body-text" appearance="outline">
+                                        <input matInput placeholder="Enter email" [(ngModel)]="client.email" name="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" #email="ngModel" required>
+                                        <mat-error *ngIf="!email.valid || (!email.pristine)">
+                                            {{getEmailErrorMessage()}}</mat-error>
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <mat-label>Your phone number</mat-label>
+                                    <mat-form-field class="full-width body-text" appearance="outline">
+                                        <input matInput placeholder="Enter phone number" name="phone" [(ngModel)]="client.phone" name="phone" #phone="ngModel" required>
+                                        <mat-error *ngIf="!phone.valid || (!phone.pristine)">
+                                            {{getPhoneErrorMessage()}}</mat-error>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="btn-row">
+                                <button class="continue-btn" (click)="ContinueToHire()" [disabled]="!f.valid">CONTINUE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer Starts Here -->
+    <footer>
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 footer-item">
+                    <h1>Quick Links</h1>
+
+                    <ul class="menu-list">
+                        <li><a href="/book-meeting">Book a Zoom Call</a></li>
+                        <li><a href="#talentpool">Hire Talent</a></li>
+                        <li><a href="#gettind-started">Getting Started</a></li>
+                        <li><a href="#managed-outsourcing">Why SsaaS</a></li>
+                        <li><a href="#skillsets">Skillsets</a></li>
+                        <li><a href="#why-youpro">Why Youpro Contact?</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-item">
+                    <h1>Contact Us</h1>
+
+                    <ul class="menu-list">
+
+                        <li>
+                            <img src="../../../../assets/landing-pages/client/phone.svg" alt="express cargo phonenumber" width="33px" height="33px" /> &nbsp; &nbsp; 0203 924 3444 <br />
+                            <span class="add-ext">+263 784 644 277</span>
+                        </li>
+
+                        <li><img src="../../../../assets/landing-pages/client/email.svg" alt="express cargo email" width="33px" height="33px" /> &nbsp; &nbsp;info@youprocontact.co.uk
+                        </li>
+                        <li><img src="../../../../assets/landing-pages/client/location.svg" alt="express cargo address" width="33px" height="33px" /> &nbsp; &nbsp; 71-75 Sheldon Street <br />
+                            <span class="add-ext">London UK</span> <br /><br /><br />
+
+                            <span class="add-ext"> Eastgate, 5th Floor</span> <br />
+                            <span class="add-ext">Harare Zimbabwe </span> <br />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-item last-item">
+                    <h1>Follow Us</h1>
+
+                    <ul class="social-icons">
+                        <li>
+                            <a rel="nofollow" href="https://www.facebook.com/youprocontact" target="_blank"><img src="../../../../assets/landing-pages/client/facebook.svg" alt="facebook" width="33px" height="33px" /></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/youprocontact/" target="_blank"><img src="../../../../assets/landing-pages/client/instagram.svg" alt="instagram" width="33px" height="33px" /></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/company/youpro-contact/mycompany/" target="_blank"><img src="../../../../assets/landing-pages/client/linkedin.svg" alt="linkinin" width="33px" height="33px" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright &copy; 2023 All rights reserved | Designed & developed by YouPro Contact
+        </div>
+    </footer>
+    <!-- Footer Ends Here -->
+</body>
+
+</html>

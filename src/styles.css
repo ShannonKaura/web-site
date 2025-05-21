@@ -1,0 +1,372 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* Montserrat font */
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('./assets/fonts/montserrat/Montserrat-Bold.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('./assets/fonts/montserrat/Montserrat-SemiBold.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./assets/fonts/montserrat/Montserrat-Regular.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./assets/fonts/montserrat/Montserrat-Medium.otf');
+    font-display: swap;
+}
+
+
+/* Raleway Font Start */
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('./assets/fonts/raleway/static/Raleway-Bold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('./assets/fonts/raleway/static/Raleway-SemiBold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('./assets/fonts/raleway/static/Raleway-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('./assets/fonts/raleway/static/Raleway-Medium.ttf');
+    font-display: swap;
+}
+
+
+/* General */
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* General end*/
+
+
+/* universal classes */
+
+.notification-success {
+    background: #2CAF49 !important;
+    color: #ffffff;
+}
+
+.mat-warn {
+    background: #FFC125 !important;
+    color: #ffffff;
+}
+
+.mat-tab-header {
+    font-family: 'Raleway-Medium';
+    font-size: 16px;
+}
+
+.body-text {
+    font-family: 'Raleway-Regular';
+    font-size: 15px;
+}
+
+.client-header {
+    font-family: 'Raleway-Medium';
+    font-size: 15px;
+}
+
+.topic-header {
+    font-family: 'Raleway-Medium';
+    font-size: 15px;
+}
+
+.table-header-text {
+    font-family: 'Raleway-SemiBold';
+    font-size: 15px;
+    color: #3395d0;
+}
+
+.button-text {
+    font-family: 'Raleway-Regular';
+    font-size: 15px;
+}
+
+.action-icons mat-icon {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.paginator {
+    color: #3395d0;
+}
+
+.body-holder {
+    border-top: 1px #EAECEE solid;
+    padding-top: 20px;
+}
+
+.main-header {
+    font-family: 'Raleway-Medium';
+    font-size: 20px;
+    color: #3395d0;
+}
+
+.sub-header {
+    font-family: 'Raleway-Medium';
+    font-size: 15px;
+}
+
+
+/* custom scrollbar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/**************************************
+Footer start
+**************************************/
+
+
+/* Footer Style */
+
+footer {
+    background-color: #304973;
+    padding: 80px 0px;
+    color: #fff;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul.social-icons {
+    margin-top: 25px;
+    padding: 0;
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer ul.social-icons li:last-child {
+    margin-right: 0px;
+}
+
+footer ul.social-icons li a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    color: #232323;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+footer ul.social-icons li a:hover {
+    background-color: #304973;
+}
+
+footer ul.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul.menu-list li {
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+}
+
+footer ul.menu-list li:last-child {
+    margin-bottom: 0px;
+}
+
+footer ul.menu-list li a {
+    color: #fff;
+    transition: all 0.3s;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+footer ul.menu-list li a:hover {
+    color: #ffffff;
+}
+
+footer .contact-form input {
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #aaa!important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+footer .contact-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+}
+
+footer .contact-form textarea {
+    border-radius: 20px;
+    height: 120px;
+    max-height: 200px;
+    min-height: 120px;
+    display: inline-block;
+    padding: 15px;
+    color: #aaa!important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+footer .contact-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+}
+
+footer .contact-form ::-webkit-input-placeholder {
+    /* Edge */
+    color: #aaa;
+}
+
+footer .contact-form :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #aaa;
+}
+
+footer .contact-form ::placeholder {
+    color: #aaa;
+}
+
+footer .contact-form button.filled-button {
+    background-color: transparent;
+    color: #fff;
+    background-color: #304973;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+footer .contact-form button.filled-button:hover {
+    background-color: #fff;
+    color: #304973;
+}
+
+footer .alt-number {
+    padding-left: 55px;
+}
+
+footer .add-ext {
+    padding-left: 55px;
+}
+
+footer .container-footer .logo {
+    margin-bottom: 50px;
+}
+
+footer .container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container-footer .row {
+    width: 90%;
+}
+
+footer .container-footer .footer-item h4 {
+    margin-bottom: 40px;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+    footer .container-footer .footer-item {
+        margin-bottom: 50px;
+    }
+}
+
+
+/**************************************
+Footer end
+**************************************/
